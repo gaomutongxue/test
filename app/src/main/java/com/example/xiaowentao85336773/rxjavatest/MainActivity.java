@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
            }, new Consumer<Throwable>() {
                @Override
                public void accept(Throwable throwable) throws Exception {
-                   Log.d("错误啦 ",Thread.currentThread().getName());
+                   Log.d("错误啦啊 ",Thread.currentThread().getName());
                }
            })
 
